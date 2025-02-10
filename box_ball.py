@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # อ่านภาพ
-image = cv2.imread(r'C:\ProjectPYTHON\BotWithChicken\ball.png')
+image = cv2.imread('ball.png')
 hsv_image = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
 
 # กำหนดช่วงสี
